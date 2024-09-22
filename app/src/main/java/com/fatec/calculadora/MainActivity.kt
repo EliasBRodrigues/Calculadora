@@ -1,5 +1,6 @@
 package com.fatec.calculadora
 
+import CalculatorScreen
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -27,7 +28,8 @@ class MainActivity : ComponentActivity() {
                             .fillMaxSize()
                             .padding(innerPadding)
                     ) {
-                        CounterScreen()
+                        //CounterScreen()
+                        CalculatorScreen()
                     }
                 }
             }
